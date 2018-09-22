@@ -65,10 +65,33 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
-	
+header section div p {
+	display: inline-block;
+	font-size: 20px;
+
+	padding: 5px 40px;
+	border: 2px solid black;
 }
-.navigation {
+
+footer {
+	text-align:center;
+}
+
+.navigation{
+	text-align: center;
+	word-spacing: 9em;
 	color: grey;
-	text-decoration: none;
 }
+
+.header-text {
+	font-family: 'Bangers', cursive;
+	text-align: left;
+	font-size: 50px;
+}
+
+.bottom-content {
+	vertical-align: top;
+	width: 33%;
+}
+
+
