@@ -65,33 +65,57 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+
+}
+
+.container header  {
+	position: relative;
+	height: 500px;
+	width: 100%;
+	margin: 20px 0;
+}
+
 header section div p {
-	display: inline-block;
 	font-size: 20px;
 
 	padding: 5px 40px;
 	border: 2px solid black;
 }
 
+
 footer {
 	text-align:center;
 }
 
+.top-text {
+	display: inline-block;
+	width: 425px;
+}
+
+.bottom-text {
+	display: inline-block;
+	width: 283px;
+}
+
 .navigation{
 	text-align: center;
-	word-spacing: 9em;
+	word-spacing: 3em;
 	color: grey;
 }
 
 .header-text {
+	display: inline-block;
 	font-family: 'Bangers', cursive;
 	text-align: left;
 	font-size: 50px;
 }
 
-.bottom-content {
+/* .bottom-content {
 	vertical-align: top;
 	width: 33%;
-}
+} */
 
 
