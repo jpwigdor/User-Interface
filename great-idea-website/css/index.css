@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 880px;
 	margin: 0 auto;
-
 }
 
 .container header  {
@@ -76,46 +75,59 @@ h1, h2, h3, h4, h5 {
 	height: 500px;
 	width: 100%;
 	margin: 20px 0;
+	padding: 50px;
 }
 
-header section div p {
+.container header section div p {
 	font-size: 20px;
-
+	text-align: center;
 	padding: 5px 40px;
 	border: 2px solid black;
 }
 
 
-footer {
-	text-align:center;
-}
-
-.top-text {
-	display: inline-block;
-	width: 425px;
-}
-
-.bottom-text {
-	display: inline-block;
-	width: 283px;
-}
-
-.navigation{
+.container .navigation{
 	text-align: center;
 	word-spacing: 3em;
 	color: grey;
+	padding: 0px 0px 5px 0px;
+}
+.container .navigation .logo {
+	padding: 10px 0px 0px 0px;
 }
 
-.header-text {
+.container .header-text {
+	position: relative;
 	display: inline-block;
 	font-family: 'Bangers', cursive;
-	text-align: left;
-	font-size: 50px;
+	text-align: center;
+	font-size: 90px;
+	margin: 40px 10px 40px -40px; 
+}
+.container .header-image {
+	position: absolute;
+	padding: 0px 0px 0px 40px;
 }
 
-/* .bottom-content {
-	vertical-align: top;
-	width: 33%;
-} */
+.container .top-text {
+	display: inline-block;
+	width: 437px;
+}
 
+.container .middle-img {
+	padding: 10px 0px;
+}
+
+.container .bottom-text {
+	display: inline-block;
+	width: 290px;
+}
+
+.container .contact p {
+	padding: 5px 0px;
+}
+
+.container footer {
+	text-align:center;
+}
 
